@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Bruno Mars y Lady Gaga</h1>
+    <a href="/index.html">volver</a><br>
+    <img iframe width="315" height="315" src="/Vz9CX1LxyQ5c.jpg" alt=""> <br>
+    <video id="miVideo" iframe width="400" height="250" loop="true" src="/Lady Gaga, Bruno Mars - Die With A Smile -- Lyrics + Español -- Video Oficial.mp4" type="video/mp4">mostrar video</video> <br>
+    <button onclick="reproducirVideo()">Reproducir Video</button>
+    <button onclick="pausarVideo()">Pausar Video</button><br>
+    <script>
+        function reproducirVideo(){
+            var video = document.getElementById("miVideo")
+            video.play();
+        }
+        function pausarVideo(){
+            var video = document.getElementById("miVideo")
+            video.pause();
+        }
+    </script>
+    <audio src=""></audio>
+</body>
+</html>
